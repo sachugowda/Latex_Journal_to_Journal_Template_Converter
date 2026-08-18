@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# This tool's own working/output files, in case someone runs it inside the repo
+/tmp/
+*.ir.json
+_parsed_content.ir.json
+REVIEW_CHECKLIST.md
+CONVERSION_NOTES.txt
+*_ready.zip
+*_converted.zip
